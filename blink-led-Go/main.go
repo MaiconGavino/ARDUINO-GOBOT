@@ -26,7 +26,7 @@ func main() {
 
 	robot := gobot.NewRobot("bot",
 		[]gobot.Connection{firmataAdaptor},
-		[]gobot.Device{led_Blue, led_Red},
+		[]gobot.Device{led_Blue, led_Blue},
 		work,
 	)
 
