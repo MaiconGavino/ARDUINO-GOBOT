@@ -1,4 +1,4 @@
-module ep
+module ep8266
 
 go 1.16
 
